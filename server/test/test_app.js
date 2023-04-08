@@ -1,5 +1,5 @@
-const expect = require('chai').expect;
-const varsnap = require('varsnap');
+import { expect } from 'chai';
+import varsnap from 'varsnap';
 
 varsnap.updateConfig({
   varsnap: process.env.VARSNAP,
@@ -8,7 +8,7 @@ varsnap.updateConfig({
   consumerToken: process.env.VARSNAP_CONSUMER_TOKEN,
 });
 
-require('../static/js/app.js');
+import '../static/js/app.js';
 
 context('Varsnap', function() {
   this.timeout(30 * 1000);
