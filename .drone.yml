@@ -19,7 +19,7 @@ steps:
       CC_TEST_REPORTER_ID: a80cd7d0697a40f38985bf79bc5aec83b6c742ed8d3463b42388b972a0b99443
 
   - name: Test Node
-    image: satantime/puppeteer-node:21-bookworm-slim
+    image: satantime/puppeteer-node:22-bookworm-slim
     commands:
       - cp .env.example .env
       - npm ci
