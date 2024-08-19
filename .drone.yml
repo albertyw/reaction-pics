@@ -4,7 +4,7 @@ name: test
 
 steps:
   - name: Test Go
-    image: golang:1.22
+    image: golang:1.23
     commands:
       - cp .env.example .env
       - touch /drone/src/server/static/gen/main.js
