@@ -27,7 +27,7 @@
   "devDependencies": {
     "@wdio/browser-runner": "^9.0.9",
     "@wdio/cli": "^9.0.9",
-    "@wdio/mocha-framework": "^8.35.0",
+    "@wdio/mocha-framework": "^9.0.0",
     "@wdio/spec-reporter": "^8.32.4",
     "chai": "^5.0.0",
     "eslint": "^9.0.0",
