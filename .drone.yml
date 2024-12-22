@@ -38,7 +38,7 @@ steps:
       - hadolint Dockerfile --ignore=DL3008 --ignore=DL4006 --ignore=SC2046 --ignore=SC2006
 
   - name: Test Nginx
-    image: python:3.12-alpine
+    image: python:3.13-alpine
     commands:
       - pip install gixy==0.1.20 pyparsing==2.4.7
       - gixy config/nginx/*
