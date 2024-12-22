@@ -1,4 +1,4 @@
-FROM node:22-slim AS node
+FROM node:23-slim AS node
 WORKDIR /root
 COPY . /root
 RUN npm ci --only=production \
