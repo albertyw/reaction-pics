@@ -19,7 +19,7 @@ steps:
       CC_TEST_REPORTER_ID: a80cd7d0697a40f38985bf79bc5aec83b6c742ed8d3463b42388b972a0b99443
 
   - name: Test Node
-    image: satantime/puppeteer-node:22-bookworm-slim
+    image: satantime/puppeteer-node:23-bookworm-slim
     commands:
       - apt-get update && apt-get install -y xz-utils  # Remove when https://github.com/satanTime/puppeteer-node/issues/26 is resolved
       - cp .env.example .env
@@ -38,9 +38,8 @@ steps:
       - hadolint Dockerfile --ignore=DL3008 --ignore=DL4006 --ignore=SC2046 --ignore=SC2006
 
   - name: Test Nginx
-    image: python:3.12-alpine
+    image: albertyw/gixy:0.2.2
     commands:
-      - pip install gixy==0.1.20 pyparsing==2.4.7
       - gixy config/nginx/*
 
   - name: Test Makefile
@@ -68,7 +67,7 @@ steps:
     environment:
       SSH_KEY:
         from_secret: ssh_key
-    image: albertyw/ssh-client:4.1.4
+    image: albertyw/ssh-client:4.1.7
     commands:
       - ssh-keyscan direct.albertyw.com >> /root/.ssh/known_hosts
       - echo "$${SSH_KEY}" > /root/.ssh/id_ed25519
