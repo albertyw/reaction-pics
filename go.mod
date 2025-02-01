@@ -3,7 +3,7 @@ module github.com/albertyw/reaction-pics
 go 1.23
 
 require (
-	github.com/gosimple/slug v1.14.0
+	github.com/gosimple/slug v1.15.0
 	github.com/ikeikeikeike/go-sitemap-generator/v2 v2.0.2
 	github.com/joho/godotenv v1.5.1
 	github.com/lithammer/fuzzysearch v1.1.8
@@ -15,7 +15,7 @@ require (
 )
 
 require (
-	github.com/beevik/etree v1.4.1 // indirect
+	github.com/beevik/etree v1.5.0 // indirect
 	github.com/clbanning/mxj v1.8.4 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
