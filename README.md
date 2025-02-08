@@ -5,7 +5,7 @@
 [![Build Status](https://drone.albertyw.com/api/badges/albertyw/reaction-pics/status.svg)](https://drone.albertyw.com/albertyw/reaction-pics)
 [![Code Climate](https://codeclimate.com/github/albertyw/reaction-pics/badges/gpa.svg)](https://codeclimate.com/github/albertyw/reaction-pics)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/cb131df54d39de0eae87/test_coverage)](https://codeclimate.com/github/albertyw/reaction-pics/test_coverage)
-[![Go Documentation](https://godocs.io/github.com/albertyw/reaction-pics?status.svg)](https://godocs.io/github.com/albertyw/reaction-pics)
+[![Go Reference](https://pkg.go.dev/badge/github.com/albertyw/reaction-pics.svg)](https://pkg.go.dev/github.com/albertyw/reaction-pics)
 [![Varsnap Status](https://www.varsnap.com/project/21c8d433-e4e0-4610-950c-5146717431a6/varsnap_badge.svg)](https://www.varsnap.com/project/21c8d433-e4e0-4610-950c-5146717431a6/)
 
 Index of DevOps Reactions
