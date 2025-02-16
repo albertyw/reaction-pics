@@ -6,7 +6,7 @@ RUN npm ci --only=production \
     && sed -i '' server/static/**/*
 
 
-FROM golang:1.23-bookworm AS go
+FROM golang:1.24-bookworm AS go
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Set up directory structures
