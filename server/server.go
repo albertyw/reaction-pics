@@ -246,7 +246,7 @@ func securityHandler(w http.ResponseWriter, r *http.Request, d handlerDeps) {
 // Run starts up the HTTP server
 func Run(logger *zap.Logger) {
 	board := model.InitializeBoard()
-	address := fmt.Sprintf(":%s", os.Getenv("PORT"))
+	address := net.JoinHostPort("", os.Getenv("PORT"))
 	logger.Info("server listening", zap.String("address", address))
 	generator := newHandlerGenerator(board, logger)
 	mux := http.NewServeMux()
