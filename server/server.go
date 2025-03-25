@@ -107,7 +107,7 @@ func postDataHandler(w http.ResponseWriter, r *http.Request, d handlerDeps) {
 	}
 	post := d.board.GetPostByID(postID)
 	if post == nil {
-		err = errors.New("Cannot find post")
+		err = errors.New("cannot find post")
 		d.logger.Warn("Cannot find post", zap.Error(err))
 		rollbar.RequestError(rollbar.WARN, r, err)
 		http.NotFound(w, r)
@@ -148,7 +148,7 @@ func postHandler(w http.ResponseWriter, r *http.Request, d handlerDeps) {
 		}
 	}
 	if post == nil {
-		err = errors.New("Cannot find post")
+		err = errors.New("cannot find post")
 		d.logger.Warn("Cannot find post", zap.Error(err))
 		rollbar.RequestError(rollbar.WARN, r, err)
 		http.NotFound(w, r)
