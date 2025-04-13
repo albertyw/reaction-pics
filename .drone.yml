@@ -37,7 +37,7 @@ steps:
       - hadolint Dockerfile --ignore=DL3008 --ignore=DL4006 --ignore=SC2046 --ignore=SC2006
 
   - name: Test Nginx
-    image: albertyw/gixy:0.2.4
+    image: getpagespeed/gixy:v0.2.7
     commands:
       - gixy config/nginx/*
 
