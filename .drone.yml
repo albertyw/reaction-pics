@@ -6,17 +6,15 @@ steps:
   - name: Test Go
     image: golang:1.24
     commands:
+      - apt-get update && apt-get install -y xz-utils
       - cp .env.example .env
       - touch /drone/src/server/static/gen/main.js
       - touch /drone/src/server/static/gen/main.css
-      - curl -L "https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-$(dpkg --print-architecture)" > "${HOME}/bin/cc-test-reporter"
-      - chmod +x "${HOME}/bin/cc-test-reporter"
-      - cc-test-reporter before-build
+      - curl https://qlty.sh | sh
       - bin/test.sh
-      - exitcode="$?"
-      - cc-test-reporter after-build --exit-code "$exitcode"
+      - ~/.qlty/bin/qlty coverage publish c.out --override-commit-sha "$DRONE_COMMIT_SHA" --override-branch "$DRONE_BRANCH" --override-build-id "$DRONE_BUILD_NUMBER"
     environment:
-      CC_TEST_REPORTER_ID: a80cd7d0697a40f38985bf79bc5aec83b6c742ed8d3463b42388b972a0b99443
+      QLTY_COVERAGE_TOKEN: qltcp_0SkZ4hmucn2hlQSg
 
   - name: Test Node
     image: satantime/puppeteer-node:24-bookworm-slim
