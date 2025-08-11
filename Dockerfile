@@ -18,7 +18,7 @@ COPY --from=node /root/server/static ./server/static
 # App-specific setup
 RUN make bins
 
-FROM debian:bookworm-slim
+FROM debian:trixie-slim
 LABEL maintainer="git@albertyw.com"
 EXPOSE 5003
 RUN apt-get update && apt-get install -y --no-install-recommends \
