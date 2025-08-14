@@ -4,7 +4,7 @@ name: test
 
 steps:
   - name: Test Go
-    image: golang:1.24
+    image: golang:1.25
     commands:
       - apt-get update && apt-get install -y xz-utils
       - cp .env.example .env
