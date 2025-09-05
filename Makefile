@@ -8,7 +8,7 @@ clean:
 
 .PHONY:bins
 bins:
-	go build -race .
+	go build .
 
 .PHONY:web
 webpack:
