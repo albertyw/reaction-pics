@@ -26,7 +26,7 @@
   "homepage": "https://github.com/albertyw/reaction-pics#readme",
   "devDependencies": {
     "@wdio/browser-runner": "^9.0.9",
-    "@wdio/cli": "^9.0.9",
+    "@wdio/cli": "^9.19.2",
     "@wdio/mocha-framework": "^9.0.0",
     "@wdio/spec-reporter": "^9.0.0",
     "chai": "^5.0.0",
