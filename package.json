@@ -29,7 +29,7 @@
     "@wdio/cli": "^9.19.2",
     "@wdio/mocha-framework": "^9.0.0",
     "@wdio/spec-reporter": "^9.0.0",
-    "chai": "^5.0.0",
+    "chai": "^6.0.0",
     "eslint": "^9.0.0",
     "globals": "^16.0.0"
   },
