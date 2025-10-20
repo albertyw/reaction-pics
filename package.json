@@ -42,7 +42,7 @@
     "logfit": "^0.9.0",
     "mini-css-extract-plugin": "^2.7.5",
     "normalize.css": "^8.0.1",
-    "rollbar": "^2.19.4",
+    "rollbar": "^2.26.5",
     "vanilla-lazyload": "^19.0.0",
     "varsnap": "^1.6.4",
     "webpack": "^5.94.0",
