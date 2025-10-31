@@ -17,7 +17,7 @@ steps:
       QLTY_COVERAGE_TOKEN: qltcp_0SkZ4hmucn2hlQSg
 
   - name: Test Node
-    image: satantime/puppeteer-node:24-trixie-slim
+    image: satantime/puppeteer-node:25-trixie-slim
     commands:
       - cp .env.example .env
       - npm ci
