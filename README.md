@@ -12,8 +12,8 @@ Index of DevOps Reactions
 
 ## Installation
 
-1.  Install Go 1.22.
-2.  Install Node 18.
+1.  Install Go 1.25.
+2.  Install Node 25.
 3.  `npm ci && npm run minify`
 4.  `make serve`
 
