@@ -14,7 +14,7 @@ Index of DevOps Reactions
 
 1.  Install Go 1.25.
 2.  Install Node 25.
-3.  `npm ci && npm run minify`
+3.  `npm ci && npm run build`
 4.  `make serve`
 
 ## Running tests

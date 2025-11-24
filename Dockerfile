@@ -2,7 +2,7 @@ FROM node:25-slim AS node
 WORKDIR /root
 COPY . /root
 RUN npm ci --only=production \
-    && npm run minify \
+    && npm run build \
     && sed -i '' server/static/**/*
 
 

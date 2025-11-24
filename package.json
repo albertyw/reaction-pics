@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "eslint": "eslint -c .eslint.config.js server/static/js server/test",
-    "minify": "npm run build",
-    "test": "npm run eslint && npm run minify && npm run wdio",
+    "test": "npm run eslint && npm run build && npm run wdio",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
