@@ -48,6 +48,9 @@ importers:
         specifier: ^6.0.0
         version: 6.0.1(webpack@5.103.0)
     devDependencies:
+      '@eslint/js':
+        specifier: ^9.39.1
+        version: 9.39.1
       '@wdio/browser-runner':
         specifier: ^9.0.9
         version: 9.20.1(@types/node@24.10.1)(esbuild@0.25.12)(expect-webdriverio@5.5.0)(rollup@4.53.3)(terser@5.44.1)(webdriver@9.20.1)(webdriverio@9.20.1)

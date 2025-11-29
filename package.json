@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/albertyw/reaction-pics#readme",
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@wdio/browser-runner": "^9.0.9",
     "@wdio/cli": "^9.19.2",
     "@wdio/mocha-framework": "^9.0.0",
