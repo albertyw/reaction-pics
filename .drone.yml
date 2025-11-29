@@ -20,8 +20,10 @@ steps:
     image: satantime/puppeteer-node:25-trixie-slim
     commands:
       - cp .env.example .env
-      - npm ci
-      - npm test
+      - wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
+      - export PNPM_HOME="$HOME/.local/share/pnpm" && export PATH="$PNPM_HOME:$PATH"
+      - pnpm install
+      - pnpm test
 
   - name: Test Bash
     image: koalaman/shellcheck-alpine:stable
