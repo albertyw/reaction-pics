@@ -1,0 +1,10 @@
+publicHoistPattern:
+- aria-query
+- css-shorthand-properties
+- css-value
+- expect
+- grapheme-splitter
+- lodash.clonedeep
+- lodash.zip
+- rgb2hex
+- webdriverio
