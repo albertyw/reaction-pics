@@ -12,12 +12,12 @@ bins:
 
 .PHONY:web
 webpack:
-	npm run build:dev
+	pnpm run build:dev
 
 .PHONY:test
 test: bins
 	./bin/test.sh
-	npm test
+	pnpm test
 	git ls-files | grep -e \.sh$ | xargs shellcheck --exclude=SC1091
 
 .PHONY:serve
