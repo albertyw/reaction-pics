@@ -14,8 +14,7 @@ Index of DevOps Reactions
 
 1.  Install Go 1.25.
 2.  Install Node 25.
-3.  `pnpm ci && pnpm run build`
-4.  `make serve`
+3.  `make serve`
 
 ## Running tests
 

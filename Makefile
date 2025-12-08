@@ -10,8 +10,11 @@ clean:
 bins:
 	go build .
 
+node_modules:
+	pnpm install
+
 .PHONY:web
-webpack:
+webpack: node_modules
 	pnpm run build:dev
 
 .PHONY:test
