@@ -20,7 +20,8 @@ steps:
     image: satantime/puppeteer-node:25-trixie-slim
     commands:
       - cp .env.example .env
-      - wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
+      - apt-get update && apt-get install -y curl
+      - curl -fsSL https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
       - export PNPM_HOME="$HOME/.local/share/pnpm" && export PATH="$PNPM_HOME:$PATH"
       - pnpm install
       - pnpm test

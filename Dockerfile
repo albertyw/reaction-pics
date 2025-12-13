@@ -2,7 +2,7 @@ FROM node:25 AS node
 WORKDIR /root
 ENV PNPM_HOME="/root/.local/share/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
-RUN wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
+RUN curl -fsSL https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
 COPY . /root
 RUN pnpm install --prod --frozen-lockfile \
     && pnpm run build \
