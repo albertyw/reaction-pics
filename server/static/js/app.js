@@ -148,7 +148,7 @@ function paginateNext() {
 }
 
 function addResult(postData) {
-  let postHTML = '<div class="result">';
+  let postHTML = '<div class="result center">';
   postHTML += '<h2>';
   if (postData.url) postHTML += '<a href="' + postData.internalURL + '">';
   postHTML += postData.title;

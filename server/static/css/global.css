@@ -1,14 +1,33 @@
+body .container {
+    margin: 0 auto !important;
+}
+
 #jumbotron {
     background-color:#e9ecef;
 }
 .suggestion + .suggestion {
   padding-left: 10px;
 }
+
+#results {
+    display: block;
+    justify-content: center;
+    gap: 20px;
+}
+.center {
+    text-align: center;
+}
 .result-img {
     height: 200px;
     min-width:200px;
     background-color: #CCC;
+    margin: 0 auto;
 }
 #footer {
     padding-top: 50px;
+}
+.suggestion {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
