@@ -1,14 +1,21 @@
 #jumbotron {
     background-color:#e9ecef;
 }
-.suggestion + .suggestion {
-  padding-left: 10px;
+
+#suggestions {
+    margin-top: 20px;
 }
+
+.suggestion + .suggestion {
+    padding-left: 10px;
+}
+
 .result-img {
     height: 200px;
     min-width:200px;
     background-color: #CCC;
 }
+
 #footer {
     padding-top: 50px;
 }
