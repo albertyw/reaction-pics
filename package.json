@@ -31,7 +31,7 @@
     "@wdio/spec-reporter": "^9.20.0",
     "chai": "^6.2.2",
     "eslint": "^9.39.2",
-    "globals": "^16.5.0"
+    "globals": "^17.0.0"
   },
   "dependencies": {
     "axios": "^1.13.2",
