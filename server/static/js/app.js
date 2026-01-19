@@ -90,7 +90,7 @@ function updateResults(query, offset) {
     // no-op
   });
 }
-// Cannot serialize and compare jquery request
+// Cannot serialize and compare axios request
 // updateResults = varsnap(updateResults);
 
 function saveQuery(query, data) {
@@ -182,7 +182,7 @@ function stats() {
     document.getElementById('suggestions').innerHTML = suggestions;
   });
 }
-// Cannot serialize and compare jquery request
+// Cannot serialize and compare axios request
 // stats = varsnap(stats);
 
 function getParameterByName(url, name) {
