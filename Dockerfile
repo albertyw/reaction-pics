@@ -9,7 +9,7 @@ RUN pnpm install --prod --frozen-lockfile \
     && sed -i '' server/static/**/*
 
 
-FROM golang:1.25-trixie AS go
+FROM golang:1.26-trixie AS go
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Set up directory structures
