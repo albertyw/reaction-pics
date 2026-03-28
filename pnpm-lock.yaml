@@ -21,8 +21,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(esbuild@0.27.4)(webpack@5.105.4)
       dotenv-webpack:
-        specifier: ^8.1.1
-        version: 8.1.1(webpack@5.105.4)
+        specifier: ^9.0.0
+        version: 9.0.0(webpack@5.105.4)
       logfit:
         specifier: ^0.9.3
         version: 0.9.3
@@ -1856,22 +1856,22 @@ packages:
   domutils@3.2.2:
     resolution: {integrity: sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==}
 
-  dotenv-defaults@2.0.2:
-    resolution: {integrity: sha512-iOIzovWfsUHU91L5i8bJce3NYK5JXeAwH50Jh6+ARUdLiiGlYWfGw6UkzsYqaXZH/hjE/eCd/PlfM/qqyK0AMg==}
+  dotenv-defaults@5.0.2:
+    resolution: {integrity: sha512-y5z4NhblzwNk8XBIYVzjLcFkANK0rxbRDO6kGOfH9QrVYIGVEX52IqwSprKVsaLHM9pnNkCSxazZF/JPydDPvA==}
 
-  dotenv-webpack@8.1.1:
-    resolution: {integrity: sha512-+TY/AJ2k9bU2EML3mxgLmaAvEcqs1Wbv6deCIUSI3eW3Xeo8LBQumYib6puyaSwbjC9JCzg/y5Pwjd/lePX04w==}
-    engines: {node: '>=10'}
+  dotenv-webpack@9.0.0:
+    resolution: {integrity: sha512-uUtvrfEt+wXXadiZ/VvBYmLmd7KffMhsdaJLZmTTGaixFBZqD2emBwLsWKP4mdJ7bj11gxEcmH6EBFAoWwHrqA==}
+    engines: {node: '>=18.18.0'}
     peerDependencies:
       webpack: ^4 || ^5
+
+  dotenv@14.3.2:
+    resolution: {integrity: sha512-vwEppIphpFdvaMCaHfCEv9IgwcxMljMw2TnAQBB4VWPvzXQLTb82jwmdOKzlEVUL3gNFT4l4TPKO+Bn+sqcrVQ==}
+    engines: {node: '>=12'}
 
   dotenv@17.3.1:
     resolution: {integrity: sha512-IO8C/dzEb6O3F9/twg6ZLXz164a2fhTnEWb95H23Dm4OuN+92NmEAlTrupP9VW6Jm3sO26tQlqyvyi4CsnY9GA==}
     engines: {node: '>=12'}
-
-  dotenv@8.6.0:
-    resolution: {integrity: sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==}
-    engines: {node: '>=10'}
 
   dunder-proto@1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
@@ -5831,18 +5831,18 @@ snapshots:
       domelementtype: 2.3.0
       domhandler: 5.0.3
 
-  dotenv-defaults@2.0.2:
+  dotenv-defaults@5.0.2:
     dependencies:
-      dotenv: 8.6.0
+      dotenv: 14.3.2
 
-  dotenv-webpack@8.1.1(webpack@5.105.4):
+  dotenv-webpack@9.0.0(webpack@5.105.4):
     dependencies:
-      dotenv-defaults: 2.0.2
+      dotenv-defaults: 5.0.2
       webpack: 5.105.4(esbuild@0.27.4)(webpack-cli@6.0.1)
 
-  dotenv@17.3.1: {}
+  dotenv@14.3.2: {}
 
-  dotenv@8.6.0: {}
+  dotenv@17.3.1: {}
 
   dunder-proto@1.0.1:
     dependencies:

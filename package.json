@@ -38,7 +38,7 @@
     "bootstrap": "^5.3.8",
     "css-loader": "^7.1.4",
     "css-minimizer-webpack-plugin": "^8.0.0",
-    "dotenv-webpack": "^8.1.1",
+    "dotenv-webpack": "^9.0.0",
     "logfit": "^0.9.3",
     "mini-css-extract-plugin": "^2.10.2",
     "normalize.css": "^8.0.1",
