@@ -27,7 +27,7 @@ if [ -n "$gosumdiff" ]; then
     exit 1
 fi
 
-curl -sSfL https://golangci-lint.run/install.sh | sh -s -- -b $(shell go env GOPATH)/bin v2.11.4
+curl -sSfL https://golangci-lint.run/install.sh | sh -s -- -b "$(shell go env GOPATH)/bin" v2.11.4
 golangci-lint run ./...
 
 go install golang.org/x/vuln/cmd/govulncheck@latest
