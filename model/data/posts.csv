@@ -102,12 +102,12 @@
 142837211682,When SecOps shows up to the meeting,http://devopsreactions.tumblr.com/post/142837211682/when-secops-shows-up-to-the-meeting,1d9b0f4b-29ec-4770-a675-1233de1d802b.gif,339
 142784601212,Our Development Process,http://devopsreactions.tumblr.com/post/142784601212/our-development-process,62f99905-f7e5-4c50-915c-7480abf5cd85.gif,489
 142731027562,When docker upgrade goes without a hitch,http://devopsreactions.tumblr.com/post/142731027562/when-docker-upgrade-goes-without-a-hitch,1b051c06-89d0-44bd-a3d7-6d7961410b72.gif,148
-142677295744,Watching the "Hitler uses Docker" video,http://devopsreactions.tumblr.com/post/142677295744/watching-the-hitler-uses-docker-video,0572621a-bac2-42a3-8ee1-05de46fd708c.gif,85
+142677295744,"Watching the ""Hitler uses Docker"" video",http://devopsreactions.tumblr.com/post/142677295744/watching-the-hitler-uses-docker-video,0572621a-bac2-42a3-8ee1-05de46fd708c.gif,85
 142622082107,Engineers around the world when SpaceX landed the Falcon-9,http://devopsreactions.tumblr.com/post/142622082107/engineers-around-the-world-when-spacex-landed-the,8ba6929d-fe8e-433c-bd0f-f31b53a37508.gif,97
 142451630784,Tension before deployment,http://devopsreactions.tumblr.com/post/142451630784/tension-before-deployment,dd3baec9-40e0-4893-be01-0315951f593b.gif,96
 142397048874,Your definition of success -vs- PM-trying-to-meet-the-deadline's definition of success,http://devopsreactions.tumblr.com/post/142397048874/your-definition-of-success-vs,9c305308-3951-474f-baf7-4a3542ef2096.gif,156
 142341582246,Diving into the legacy code to find a bug,http://devopsreactions.tumblr.com/post/142341582246/diving-into-the-legacy-code-to-find-a-bug,b8c77288-05fb-49a6-9814-3c9a19e4376b.gif,124
-142286316054,When you notice that the "automation" ended up being the intern doing it,http://devopsreactions.tumblr.com/post/142286316054/when-you-notice-that-the-automation-ended-up,bb04c14c-ef18-4103-931e-e9889f34a3c8.gif,183
+142286316054,"When you notice that the ""automation"" ended up being the intern doing it",http://devopsreactions.tumblr.com/post/142286316054/when-you-notice-that-the-automation-ended-up,bb04c14c-ef18-4103-931e-e9889f34a3c8.gif,183
 142229608699,When the technical debt unrolls,http://devopsreactions.tumblr.com/post/142229608699/when-the-technical-debt-unrolls,30a57cf7-bf20-4dc0-9c8f-cb04a0b619bd.gif,99
 142060582959,When you notice a bug but don't pay attention to it,http://devopsreactions.tumblr.com/post/142060582959/when-you-notice-a-bug-but-dont-pay-attention-to,e8f09bf6-2e00-4654-acff-61aae4649ab3.gif,119
 142004553510,When the awesome feature bites you,http://devopsreactions.tumblr.com/post/142004553510/when-the-awesome-feature-bites-you,7d80a292-1343-4270-a1b8-d25671c286d9.gif,63
@@ -200,7 +200,7 @@
 133124942844,Inheriting a legacy codebase,http://devopsreactions.tumblr.com/post/133124942844/inheriting-a-legacy-codebase,2b108d64-2acb-4bdc-871e-eacf709ae82f.gif,83
 133060287384,"Spending a few hours fixing a key gap in monitoring, only to be chided as it wasn't in the sprint",http://devopsreactions.tumblr.com/post/133060287384/spending-a-few-hours-fixing-a-key-gap-in,85c93625-3eb6-4539-9674-e191390fadac.gif,51
 132993927034,Showcasing the rival technology,http://devopsreactions.tumblr.com/post/132993927034/showcasing-the-rival-technology,8399d46b-941b-40e8-b9c3-998ae8901487.gif,76
-132928886305,""sudo chown -R nginx:nginx" at document root, not the system root!",http://devopsreactions.tumblr.com/post/132928886305/sudo-chown-r-nginxnginx-at-document-root-not,adf6926d-a666-4517-b8b2-58830dd8cd09.gif,45
+132928886305,"""sudo chown -R nginx:nginx"" at document root, not the system root!",http://devopsreactions.tumblr.com/post/132928886305/sudo-chown-r-nginxnginx-at-document-root-not,adf6926d-a666-4517-b8b2-58830dd8cd09.gif,45
 132862430116,Micromanagement,http://devopsreactions.tumblr.com/post/132862430116/micromanagement,36e257b2-e0a7-400e-8ebb-151ebe770abb.gif,38
 132846994134,Having 10% female visitors on devopsreactions,http://devopsreactions.tumblr.com/post/132846994134/having-10-female-visitors-on-devopsreactions,0f06ff12-69d0-432a-8207-0e9cd958f1c8.gif,192
 132844975989,When imgur blacklisted devopsreactions,http://devopsreactions.tumblr.com/post/132844975989/when-imgur-blacklisted-devopsreactions,e8be1eb5-0569-4442-87ec-be5595707687.gif,36
@@ -321,7 +321,7 @@
 119014929624,"The PM, when you deliver",http://devopsreactions.tumblr.com/post/119014929624/the-pm-when-you-deliver,269793f1-3650-41f1-a397-fbc8372afafc.gif,69
 118933329057,bash: ls: command not found,http://devopsreactions.tumblr.com/post/118933329057/bash-ls-command-not-found,af7782ca-b852-485d-974e-e06c023900a0.gif,226
 118852143728,Unit testing,http://devopsreactions.tumblr.com/post/118852143728/unit-testing,ee877af4-8d47-41bc-b88e-85f692033b2f.gif,270
-118768426401,"When you say to the CEO "if it's so easy, why don’t you do it?”",http://devopsreactions.tumblr.com/post/118768426401/when-you-say-to-the-ceo-if-its-so-easy-why,49ee5d2f-71c2-42a9-a0dc-eddc7a32d80a.gif,72
+118768426401,"When you say to the CEO ""if it's so easy, why don't you do it?""",http://devopsreactions.tumblr.com/post/118768426401/when-you-say-to-the-ceo-if-its-so-easy-why,49ee5d2f-71c2-42a9-a0dc-eddc7a32d80a.gif,72
 118684377912,"I think I found a prob... no, wait, it’s fine",http://devopsreactions.tumblr.com/post/118684377912/i-think-i-found-a-prob-no-wait-its-fine,a84829b6-ecc7-4d99-a9ac-b43700fe3004.gif,156
 118432149429,Explaining Puppet to management,http://devopsreactions.tumblr.com/post/118432149429/explaining-puppet-to-management,e44f12da-e257-4cf7-9eee-ac9a042937db.gif,150
 118352716152,Working with our outsourced sysadmins,http://devopsreactions.tumblr.com/post/118352716152/working-with-our-outsourced-sysadmins,e954d66d-a8ca-4f54-85ad-01b2779a5c71.gif,93
@@ -1644,7 +1644,7 @@
 143540639133,When I'm about to deliver an update and suddenly the server falls down,https://securityreactions.tumblr.com/post/143540639133/when-im-about-to-deliver-an-update-and-suddenly,4dd2fa43-2793-4e12-85b0-4469ac689a5a.gif,46
 143536045727,How script kiddies think a bug bounty works,https://securityreactions.tumblr.com/post/143536045727/how-script-kiddies-think-a-bug-bounty-works,35deb3e9-0ed0-4ea6-83c2-b40fd10ab652.gif,18
 143531832354,When the new DBIR drops,https://securityreactions.tumblr.com/post/143531832354/when-the-new-dbir-drops,13d40e41-1cd6-4da0-9aa3-ac4f410f198f.gif,9
-143487557542,Security consultancy recommends that we "Allow usernames and passwords to be up to 20 characters in length.",https://securityreactions.tumblr.com/post/143487557542/security-consultancy-recommends-that-we-allow,88f9bd5e-8722-4d9e-a0fe-bac5dc9894f7.gif,33
+143487557542,"Security consultancy recommends that we ""Allow usernames and passwords to be up to 20 characters in length.""",https://securityreactions.tumblr.com/post/143487557542/security-consultancy-recommends-that-we-allow,88f9bd5e-8722-4d9e-a0fe-bac5dc9894f7.gif,33
 143485309287,SELinux in an org full of n00bs,https://securityreactions.tumblr.com/post/143485309287/selinux-in-an-org-full-of-n00bs,bbdbd936-cf16-4851-9d5c-34a61f09be30.gif,25
 143433661789,Cookie Stealing - Master level,https://securityreactions.tumblr.com/post/143433661789/cookie-stealing-master-level,2a424ffb-9875-4384-a736-3672978f1635.gif,94
 143113304102,Bypassing perimeter security,https://securityreactions.tumblr.com/post/143113304102,330baa12-bfba-4137-8e68-0efd0b52a406.gif,33
@@ -2447,9 +2447,9 @@
 96099050696,CSO discovers we bypassed millions of dollars worth of security technology,https://securityreactions.tumblr.com/post/96099050696/cso-discovers-we-bypassed-millions-of-dollars,2798c79f-23d9-4106-bc00-4ecbcb054fb1.gif,11
 96094149285,Trying to get to the technical person at a vendor stand...,https://securityreactions.tumblr.com/post/96094149285/trying-to-get-to-the-technical-person-at-a-vendor,a8909838-f9ed-420b-b3b0-053b8e51a6b2.gif,40
 96012598368,"""So you work in computer security? What's that like? I hear tech jobs are awesome!""",https://securityreactions.tumblr.com/post/96012598368/so-you-work-in-computer-security-whats-that,ad8f1f98-7d8c-4ade-8fc4-6e4f360e11a1.gif,50
-96007766837,Users want a place to share files and an admin proposes the "cleanest solution" is to chmod 777 everyone's home directories,https://securityreactions.tumblr.com/post/96007766837/users-want-a-place-to-share-files-and-an-admin,05b82b8f-7298-4d86-858a-85660a653df1.gif,26
+96007766837,"Users want a place to share files and an admin proposes the ""cleanest solution"" is to chmod 777 everyone's home directories",https://securityreactions.tumblr.com/post/96007766837/users-want-a-place-to-share-files-and-an-admin,05b82b8f-7298-4d86-858a-85660a653df1.gif,26
 95925363088,"First attempt at social engineering using a fake name, trying to sound natural and calm",https://securityreactions.tumblr.com/post/95925363088/first-attempt-at-social-engineering-using-a-fake,91092d8c-c017-47a3-9075-6f20ed34bf19.gif,10
-95922947737,Sidling up to the "Security Rockstars" speakers at DEF CON,https://securityreactions.tumblr.com/post/95922947737/sidling-up-to-the-security-rockstars-speakers-at,f31ca75f-24c7-4a27-a3f0-642d989c8569.gif,10
+95922947737,"Sidling up to the ""Security Rockstars"" speakers at DEF CON",https://securityreactions.tumblr.com/post/95922947737/sidling-up-to-the-security-rockstars-speakers-at,f31ca75f-24c7-4a27-a3f0-642d989c8569.gif,10
 95920481219,First machine scanned during a pentest is vulnerable to MS08-067 #DomainAdminBeforeLunch,https://securityreactions.tumblr.com/post/95920481219/first-machine-scanned-during-a-pentest-is,cd0ef74e-0f9a-4eec-85a4-19e1647729ca.gif,23
 95917569517,Skiddie using his brand-new Pineapple during Defcon 22,https://securityreactions.tumblr.com/post/95917569517/skiddie-using-his-brand-new-pineapple-during,5504b125-484b-4c98-832d-daee39ff54d4.gif,9
 95912594204,When the Alexis Park floormat is on the scavenger hunt list,https://securityreactions.tumblr.com/post/95912594204/when-the-alexis-park-floormat-is-on-the-scavenger,94745a35-586a-42c4-94f4-367599e6df70.gif,7
@@ -2650,7 +2650,7 @@
 83516448161,"When I realised ""Mom"" wasn't actually a parody account",https://securityreactions.tumblr.com/post/83516448161/when-i-realised-mom-wasnt-actually-a-parody,45011ec2-8609-4b4c-87ee-ee23da5e7762.gif,7
 83421001903,after finishing an hour long discussion with the client and schooling them on why their security policy is garbage,https://securityreactions.tumblr.com/post/83421001903/after-finishing-an-hour-long-discussion-with-the,fe218ccb-89c2-43eb-9764-01f3f437434b.gif,10
 83320208370,"""Hey, could you take down $site for me?""",https://securityreactions.tumblr.com/post/83320208370/hey-could-you-take-down-site-for-me,0085182c-d730-43f7-a384-7eb769aba3ef.gif,15
-83313232014,"When user request to open ""random ports on the firewall"" and also "but I dont know which ones yet"",https://securityreactions.tumblr.com/post/83313232014/when-user-request-to-open-random-ports-on-the,d33a3257-bf95-402b-a40c-4b31ae93eef3.gif,15
+83313232014,"When user request to open ""random ports on the firewall"" and also ""but I dont know which ones yet""",https://securityreactions.tumblr.com/post/83313232014/when-user-request-to-open-random-ports-on-the,d33a3257-bf95-402b-a40c-4b31ae93eef3.gif,15
 83217202515,When a user emails me their password in plain text...,https://securityreactions.tumblr.com/post/83217202515/when-a-user-emails-me-their-password-in-plain,d0857fff-9899-4ffd-b2f5-83785ba4702b.gif,21
 83210291388,Me waiting for my 1 gig Burp state to save..,https://securityreactions.tumblr.com/post/83210291388/me-waiting-for-my-1-gig-burp-state-to-save,5a649f9b-84f2-43c6-8f25-306a6129de47.gif,2
 83114444039,When I went to dumpster diving,https://securityreactions.tumblr.com/post/83114444039/when-i-went-to-dumpster-diving,13cf5578-2afa-45e3-be9f-ecfa9700bd27.gif,7
@@ -3094,7 +3094,7 @@
 58789705798,"When the customer told me ""I don't need Windows updates""",https://securityreactions.tumblr.com/post/58789705798/when-the-customer-told-me-i-dont-need-windows,32aad93b-75ad-4c18-9349-fcede3a4664d.gif,30
 58332750541,When I submit the final report.,https://securityreactions.tumblr.com/post/58332750541/when-i-submit-the-final-report,4f6492cd-9b2f-4371-a115-66281f4d3ef7.gif,9
 58243054774,"Port scan the TV, find a 404 page.",https://securityreactions.tumblr.com/post/58243054774/port-scan-the-tv-find-a-404-page,bbb04c75-0403-42d5-b780-b473f0ba1373.gif,9
-58151692044,me testing your enterprise "state of the art" firewall,https://securityreactions.tumblr.com/post/58151692044/me-testing-your-enterprise-state-of-the-art,c0f5f1b8-5b95-4f90-a820-97f4777b1589.gif,15
+58151692044,"me testing your enterprise ""state of the art"" firewall",https://securityreactions.tumblr.com/post/58151692044/me-testing-your-enterprise-state-of-the-art,c0f5f1b8-5b95-4f90-a820-97f4777b1589.gif,15
 58059784447,What running Nexpose must feel like to a network,https://securityreactions.tumblr.com/post/58059784447/what-running-nexpose-must-feel-like-to-a-network,58494dfb-5b36-4c7a-ba20-332c829be252.gif,8
 57967281472,When skiddies try to replicate techniques they see at Blackhat,https://securityreactions.tumblr.com/post/57967281472/when-skiddies-try-to-replicate-techniques-they-see,06dee7f0-c709-4a90-942c-9271d933b3c8.gif,17
 57881666170,"Fortune 500 dealing with ""APT""",https://securityreactions.tumblr.com/post/57881666170/fortune-500-dealing-with-apt,77b1d43d-3b2f-468d-90d1-6f3e378d6955.gif,10
@@ -3356,7 +3356,7 @@
 44709741946,polymorphic malware,https://securityreactions.tumblr.com/post/44709741946/polymorphic-malware,8fd9d324-f9cf-47f3-9830-29a553ac1a31.gif,28
 44628403026,The average pentester with no access to Metasploit,https://securityreactions.tumblr.com/post/44628403026/the-average-pentester-with-no-access-to-metasploit,4a2b8183-8ae0-48f9-bce1-d56ae2994cd3.gif,10
 44541771569,China's Reaction to APT 1 report,https://securityreactions.tumblr.com/post/44541771569/chinas-reaction-to-apt-1-report,284b1981-acb3-4973-8bc1-219176a8c1e9.gif,6
-44541734066,My boss hanging out on AnonOps to "gather intelligence on Anonymous.",https://securityreactions.tumblr.com/post/44541734066/my-boss-hanging-out-on-anonops-to-gather,2c3c8a69-309f-49e7-8685-b113518fdcf8.gif,1
+44541734066,"My boss hanging out on AnonOps to ""gather intelligence on Anonymous.""",https://securityreactions.tumblr.com/post/44541734066/my-boss-hanging-out-on-anonops-to-gather,2c3c8a69-309f-49e7-8685-b113518fdcf8.gif,1
 44541626644,Bragging about that brand new exploit I just published,https://securityreactions.tumblr.com/post/44541626644/braging-about-that-brand-new-exploit-i-just,57099e45-47d8-4e81-a1a7-1ba4148b58c7.gif,7
 44451952697,When the scope is too small to actually pentest the organization,https://securityreactions.tumblr.com/post/44451952697/when-the-scope-is-too-small-to-actually-pentest,48c45d9c-02ae-431b-a61e-dc806efcada5.gif,7
 44367743505,Combining NOP sled and a ROP chain for a browser sandbox escape,https://securityreactions.tumblr.com/post/44367743505/combining-nop-sled-and-a-rop-chain-for-a-browser,0abee5b7-8cc7-40c7-9ea3-f1e8e121e565.gif,6
@@ -3872,7 +3872,7 @@
 29838787273,When I walk into a meeting and I'm the only security person,https://securityreactions.tumblr.com/post/29838787273/when-i-walk-into-a-meeting-and-im-the-only,2bc03e31-837d-44ef-9ebe-237afc05182d.gif,2
 29838467536,"When someone says ""$thing is unhackable""",https://securityreactions.tumblr.com/post/29838467536/when-someone-says-thing-is-unhackable,37db33c9-d280-4bcc-b426-edabf3fed689.gif,4
 29837760775,Trying to retrofit security on a poorly designed system,https://securityreactions.tumblr.com/post/29837760775/trying-to-retrofit-security-on-a-poorly-designed,0280ce7a-4366-4d0d-9440-f6cd5d65174e.gif,0
-1583620125718036481,""This proposal sounds good, on the surface, but would your average upper primate consider .unwrap() readable? The core team ran an experiment on 300 kindergartners and most could not describe the control flow of the situation adequately, so we respectfully decline”",https://twitter.com/sigsegmeme/status/1583620125718036481,1583620125718036481.mp4,5
+1583620125718036481,"""This proposal sounds good, on the surface, but would your average upper primate consider .unwrap() readable? The core team ran an experiment on 300 kindergartners and most could not describe the control flow of the situation adequately, so we respectfully decline""",https://twitter.com/sigsegmeme/status/1583620125718036481,1583620125718036481.mp4,5
 1545518433583992832,brb going to deploy my app using bun js runtime real quick,https://twitter.com/sigsegmeme/status/1545518433583992832,1545518433583992832.jpg,46
 1529158355607904256,docker is why we can't have nice things,https://twitter.com/sigsegmeme/status/1529158355607904256,1529158355607904256.jpg,50
 1527370243177586688,somebody check on Python,https://twitter.com/sigsegmeme/status/1527370243177586688,1527370243177586688.jpg,51
@@ -3991,7 +3991,7 @@
 1230186690238701568,it has been brought to my attention I have been unfair to the people who take the garbage out themselves,https://twitter.com/sigsegmeme/status/1230186690238701568,1230186690238701568.jpg,12
 1229914156851253256,GC gang where you at,https://twitter.com/sigsegmeme/status/1229914156851253256,1229914156851253256.jpg,22
 1229907887859871744,when you pitch your linear regression model as an AI,https://twitter.com/sigsegmeme/status/1229907887859871744,1229907887859871744.jpg,36
-1228453151952515078,When you just add "+1" under another comment in the PR because you don't have anything else to contribute,https://twitter.com/sigsegmeme/status/1228453151952515078,1228453151952515078.jpg,28
+1228453151952515078,"When you just add ""+1"" under another comment in the PR because you don't have anything else to contribute",https://twitter.com/sigsegmeme/status/1228453151952515078,1228453151952515078.jpg,28
 1227049864367951872,https://t.co/jXQMeNT0JZ,https://twitter.com/sigsegmeme/status/1227049864367951872,1227049864367951872.jpg,29
 1224773563951058944,when you end up using a goto statement in 2020,https://twitter.com/sigsegmeme/status/1224773563951058944,1224773563951058944.jpg,24
 1224542650029805574,when you get paged at 4am,https://twitter.com/sigsegmeme/status/1224542650029805574,1224542650029805574.jpg,12
@@ -4014,7 +4014,7 @@
 1179781714593374209,https://t.co/Lyk5ep9w31,https://twitter.com/sigsegmeme/status/1179781714593374209,1179781714593374209.jpg,26
 1178712822500474881,"nobody: ""; jeff bezos after you forget to terminate a t2.micro instance you used for testing something:",https://twitter.com/sigsegmeme/status/1178712822500474881,1178712822500474881.jpg,24
 1178432869301133312,"me: great, the code behaves as expected; race conditions:",https://twitter.com/sigsegmeme/status/1178432869301133312,1178432869301133312.jpg,23
-1178004905937821699,"right to be forgotten" lmao is that like a new JavaScript framework or something?,https://twitter.com/sigsegmeme/status/1178004905937821699,1178004905937821699.jpg,12
+1178004905937821699,"""right to be forgotten"" lmao is that like a new JavaScript framework or something?",https://twitter.com/sigsegmeme/status/1178004905937821699,1178004905937821699.jpg,12
 1177999434942160896,"them: oh that's just the custom encryption we wrote to—. me:",https://twitter.com/sigsegmeme/status/1177999434942160896,1177999434942160896.jpg,13
 1177284602307719169,"extra ram: *exists*; slack:",https://twitter.com/sigsegmeme/status/1177284602307719169,1177284602307719169.jpg,15
 1174346073181216770,when your company tries to do a reorg without disrupting the business,https://twitter.com/sigsegmeme/status/1174346073181216770,1174346073181216770.mp4,16
@@ -4032,7 +4032,7 @@
 1168208655587692546,when the teams at lunch and the intern says he just ran an unreviewed bash script in prod,https://twitter.com/sigsegmeme/status/1168208655587692546,1168208655587692546.mp4,26
 1167936882107269121,When all the meetup speakers are finished but the company hosting says they want to take a few minutes to say they're currently recruiting,https://twitter.com/sigsegmeme/status/1167936882107269121,1167936882107269121.jpg,6
 1167832686217572352,"Companies: *Use free open source to make literally millions of dollars*; Open source maintainers: Could we at least get a couple of dollars from this? Open source consumers:",https://twitter.com/sigsegmeme/status/1167832686217572352,1167832686217572352.jpg,0
-1167450989051428865,when you keep smashing "go to definition" but there's way too many levels of abstraction,https://twitter.com/sigsegmeme/status/1167450989051428865,1167450989051428865.mp4,41
+1167450989051428865,"when you keep smashing ""go to definition"" but there's way too many levels of abstraction",https://twitter.com/sigsegmeme/status/1167450989051428865,1167450989051428865.mp4,41
 1167151180780322826,When you meet the guy in the office who's been saying his editor is better than yours,https://twitter.com/sigsegmeme/status/1167151180780322826,1167151180780322826.jpg,17
 1166704604609941504,The Engineer,https://twitter.com/sigsegmeme/status/1166704604609941504,1166704604609941504.jpg,18
 1164397639137464320,s/utils/lodash for our JavaScript friends,https://twitter.com/sigsegmeme/status/1164397639137464320,1164397639137464320.jpg,28
@@ -4142,7 +4142,7 @@
 1092590588770189313,sorry not sorry,https://twitter.com/sigsegmeme/status/1092590588770189313,1092590588770189313.jpg,9
 1092578925102784513,When you get called into a meeting with the sales team,https://twitter.com/sigsegmeme/status/1092578925102784513,1092578925102784513.jpg,13
 1092498433351372803,when you feel like a genius after fixing a bug but then realize that you're the one who put it there in the first place,https://twitter.com/sigsegmeme/status/1092498433351372803,1092498433351372803.jpg,6
-1092130287293587458,When you get that "exciting new job opportunity!" email from a recruiting firm,https://twitter.com/sigsegmeme/status/1092130287293587458,1092130287293587458.jpg,10
+1092130287293587458,"When you get that ""exciting new job opportunity!"" email from a recruiting firm",https://twitter.com/sigsegmeme/status/1092130287293587458,1092130287293587458.jpg,10
 1092117928126820352,https://t.co/gmlyKejf1p,https://twitter.com/sigsegmeme/status/1092117928126820352,1092117928126820352.jpg,13
 1091952500825935873,10x engineers don't need code review don't @ me,https://twitter.com/sigsegmeme/status/1091952500825935873,1091952500825935873.jpg,11
 1091931915521675264,distributed systems are fun they said,https://twitter.com/sigsegmeme/status/1091931915521675264,1091931915521675264.jpg,3
