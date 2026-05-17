@@ -1,4 +1,4 @@
-FROM node:25 AS node
+FROM node:26 AS node
 WORKDIR /root
 ENV PNPM_HOME="/root/.local/share/pnpm"
 ENV PATH="$PNPM_HOME/bin:$PATH"
