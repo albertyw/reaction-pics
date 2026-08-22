@@ -5,6 +5,7 @@
 # Change IP address to domain name
 server {
     listen          80;
+    listen     [::]:80;
     server_name     reaction.pics www.reaction.pics;
     return          301 https://www.reaction.pics$request_uri;
 }
@@ -12,6 +13,7 @@ server {
 # Change naked domain to www
 server {
     listen          443 ssl;
+    listen     [::]:443 ssl;
     http2           on;
     server_name     reaction.pics;
 
@@ -26,6 +28,7 @@ server {
 
 server {
     listen          443 ssl;
+    listen     [::]:443 ssl;
     http2           on;
     server_name     www.reaction.pics;
     access_log      /var/log/nginx/reaction-pics/access.log;
