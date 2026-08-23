@@ -25,12 +25,12 @@
   "homepage": "https://github.com/albertyw/reaction-pics#readme",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@wdio/browser-runner": "^9.30.1",
-    "@wdio/cli": "^9.30.1",
-    "@wdio/mocha-framework": "^9.30.1",
-    "@wdio/spec-reporter": "^9.30.1",
+    "@wdio/browser-runner": "^9.31.2",
+    "@wdio/cli": "^9.31.2",
+    "@wdio/mocha-framework": "^9.31.2",
+    "@wdio/spec-reporter": "^9.31.2",
     "chai": "^6.2.2",
-    "eslint": "^10.8.1",
+    "eslint": "^10.9.0",
     "globals": "^17.11.0"
   },
   "dependencies": {
