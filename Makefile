@@ -7,7 +7,7 @@ clean:
 	rm server/static/gen/*
 
 .PHONY:bins
-bins: webpack
+bins:
 	go build .
 
 node_modules:
