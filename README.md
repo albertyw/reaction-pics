@@ -1,7 +1,6 @@
 [Reaction Pics](https://www.reaction.pics)
 ==========================================
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/albertyw/reaction-pics)](https://goreportcard.com/report/github.com/albertyw/reaction-pics)
 [![Build Status](https://drone.albertyw.com/api/badges/albertyw/reaction-pics/status.svg)](https://drone.albertyw.com/albertyw/reaction-pics)
 [![Maintainability](https://qlty.sh/gh/albertyw/projects/reaction-pics/maintainability.svg)](https://qlty.sh/gh/albertyw/projects/reaction-pics)
 [![Code Coverage](https://qlty.sh/gh/albertyw/projects/reaction-pics/coverage.svg)](https://qlty.sh/gh/albertyw/projects/reaction-pics)
