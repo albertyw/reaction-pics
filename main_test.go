@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rollbar/rollbar-go"
+	rollbar "github.com/rollbar/rollbar-go"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/goleak"
 )

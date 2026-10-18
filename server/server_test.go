@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/albertyw/reaction-pics/model"
-	"github.com/rollbar/rollbar-go"
+	rollbar "github.com/rollbar/rollbar-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 	"go.uber.org/goleak"

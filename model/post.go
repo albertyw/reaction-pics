@@ -12,7 +12,7 @@ import (
 
 	"github.com/gosimple/slug"
 	"github.com/lithammer/fuzzysearch/fuzzy"
-	"github.com/rollbar/rollbar-go"
+	rollbar "github.com/rollbar/rollbar-go"
 )
 
 // MaxKeywords is the maximum number of keywords that can be returned by a board

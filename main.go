@@ -9,7 +9,7 @@ import (
 
 	"github.com/albertyw/reaction-pics/server"
 	"github.com/joho/godotenv"
-	"github.com/rollbar/rollbar-go"
+	rollbar "github.com/rollbar/rollbar-go"
 	_ "go.uber.org/automaxprocs"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

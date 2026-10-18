@@ -15,7 +15,7 @@ import (
 
 	"github.com/albertyw/reaction-pics/model"
 	"github.com/ikeikeikeike/go-sitemap-generator/v2/stm"
-	"github.com/rollbar/rollbar-go"
+	rollbar "github.com/rollbar/rollbar-go"
 	"go.uber.org/zap"
 )
 
