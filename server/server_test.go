@@ -194,6 +194,9 @@ func (s *HandlerTestSuite) TestPostHandler() {
 	assert.NotEqual(s.T(), len(body), 0)
 	assert.True(s.T(), strings.Contains(body, post.Title))
 	assert.True(s.T(), strings.Contains(body, post.Image))
+	assert.True(s.T(), strings.Contains(body, `<meta property="og:image" content="`+post.Image+`" />`))
+	assert.True(s.T(), strings.Contains(body, `<meta name="twitter:card" content="summary_large_image" />`))
+	assert.True(s.T(), strings.Contains(body, `<meta name="twitter:image" content="`+post.Image+`" />`))
 }
 
 func (s *HandlerTestSuite) TestPostDataHandler() {

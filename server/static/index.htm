@@ -13,7 +13,11 @@
     <meta name="msapplication-config" content="/static/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     {{ range .MetaHeaders }}
+      {{ if .Name }}
+      <meta name="{{ .Name }}" content="{{ .Content }}" />
+      {{ else }}
       <meta property="{{ .Property }}" content="{{ .Content }}" />
+      {{ end }}
     {{ end }}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YHSXV1DPDJ"></script>

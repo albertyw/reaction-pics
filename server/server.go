@@ -29,6 +29,7 @@ var staticFileServer = http.FileServer(http.FS(staticFiles))
 
 type metaHeader struct {
 	Property string
+	Name     string
 	Content  string
 }
 
@@ -156,8 +157,11 @@ func postHandler(w http.ResponseWriter, r *http.Request, d handlerDeps) {
 	}
 
 	headers := []metaHeader{
-		{"og:title", post.Title},
-		{"og:image", post.Image},
+		{Property: "og:title", Content: post.Title},
+		{Property: "og:image", Content: post.Image},
+		{Name: "twitter:card", Content: "summary_large_image"},
+		{Name: "twitter:title", Content: post.Title},
+		{Name: "twitter:image", Content: post.Image},
 	}
 
 	indexHandlerWithHeaders(w, r, d, headers)
