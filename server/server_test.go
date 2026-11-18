@@ -195,6 +195,8 @@ func (s *HandlerTestSuite) TestPostHandler() {
 	assert.True(s.T(), strings.Contains(body, post.Title))
 	assert.True(s.T(), strings.Contains(body, post.Image))
 	assert.True(s.T(), strings.Contains(body, `<meta property="og:image" content="`+post.Image+`" />`))
+	assert.True(s.T(), strings.Contains(body, `<meta property="og:site_name" content="Reaction Pics" />`))
+	assert.True(s.T(), strings.Contains(body, `<meta property="og:description" content="`+post.Title+`" />`))
 	assert.True(s.T(), strings.Contains(body, `<meta name="twitter:card" content="summary_large_image" />`))
 	assert.True(s.T(), strings.Contains(body, `<meta name="twitter:image" content="`+post.Image+`" />`))
 }

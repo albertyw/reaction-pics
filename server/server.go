@@ -157,10 +157,14 @@ func postHandler(w http.ResponseWriter, r *http.Request, d handlerDeps) {
 	}
 
 	headers := []metaHeader{
+		{Property: "og:site_name", Content: "Reaction Pics"},
+		{Property: "og:type", Content: "website"},
 		{Property: "og:title", Content: post.Title},
+		{Property: "og:description", Content: post.Title},
 		{Property: "og:image", Content: post.Image},
 		{Name: "twitter:card", Content: "summary_large_image"},
 		{Name: "twitter:title", Content: post.Title},
+		{Name: "twitter:description", Content: post.Title},
 		{Name: "twitter:image", Content: post.Image},
 	}
 
